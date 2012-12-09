@@ -15,8 +15,8 @@ ${EXEC}: ${OBJS}
 	${CC} ${LDFLAGS} -g -o ${EXEC} ${OBJS}
 
 lib: ${OBJS}
-	${CC} -c hash.c -o hash.o
-	ar rcs libhash.a hash.o
+	${CC} -c vector.c -o vector.o
+	ar rcs libvector.a vector.o
 
 debug: ${EXEC}
 debug: CC += ${CFDEBUG}
