@@ -1,6 +1,6 @@
 # Vector
 
-Vector is a tiny library that implements a growing and shrinking array in C. It's fairly small and concise, and it offers just a handful of functions.
+Vector is a tiny library that implements a growing and shrinking array in C. It's fairly small and concise, and it offers just a handful of functions. It's named `vector` after the `Vector` container in C++, which introduced me to the idea of expanding arrays.
 
 ## EXAMPLE
 
